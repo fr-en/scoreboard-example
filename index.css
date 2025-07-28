@@ -1,0 +1,149 @@
+@font-face {
+  font-family: Score-font;
+  src: url("./source/CursedTimerUlil-Aznm.ttf");
+}
+
+.white-text {
+  color: #EEEEEE;
+  ;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-image: url("./source/images/background.jpg");
+  background-size: cover;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1B244A;
+  width: 450px;
+  height: 250px;
+  display: flex;
+  margin: 50px auto 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 12px;
+
+
+}
+
+.score-col {
+
+
+  display: flow-root;
+  padding: 8px;
+  text-align: center;
+
+
+}
+
+.col-h {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36px;
+  margin: 0 0 12px 0;
+}
+
+.num-container {
+  background-color: black;
+  height: 85px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  transition: ease-in 0.2s;
+
+
+}
+
+
+.num {
+  color: #F94F6D;
+  font-size: 70px;
+  margin: auto;
+  height: 60px;
+
+}
+
+.btn-container {
+  cursor: default;
+
+}
+
+.btn-container::selection {
+  background-color: transparent;
+  color: inherit;
+}
+
+.score-btn,
+.num {
+  font-family: Score-font, sans-serif;
+}
+
+.btn {
+  padding: 12px;
+  border-radius: 4px;
+  color: #eeeeee;
+  background-color: transparent;
+  border: 1px solid #9AABD8;
+  box-sizing: border-box;
+  transition: transform 0.1s ease;
+}
+
+.score-btn {
+  margin-top: 16px;
+
+}
+
+.score-btn:hover {
+  border: 1px solid #7583a8;
+  cursor: pointer;
+
+}
+
+.score-btn:active {
+  border: 1px solid #8292bd;
+  transform: scale(0.98);
+  color: #eeeeeea6
+}
+
+.ng-container {
+  padding: 8px;
+  background-color: #111827;
+  
+  margin: 12px auto;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  border-radius: 8px;
+}
+
+.ng-btn {
+margin: auto;
+border: none;
+background-color: tr;
+font-size: medium;
+
+
+}
+.ng-btn:hover{
+  background-color: rgb(41, 48, 61);
+}
+.ng-btn:active{
+  background-color: rgb(51, 60, 77);
+}
+
+.box-light{
+  
+  box-shadow: 0px 0px 12px yellow; 
+}
